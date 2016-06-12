@@ -1,0 +1,42 @@
+<idea-plugin version="2">
+  <id>zamber.method.viewer.studio.plugin.methodviewer</id>
+  <name>MethodViewer</name>
+  <version>1.0</version>
+  <vendor url="https://github.com/zamberform">ZamberForm</vendor>
+
+  <description><![CDATA[
+      There is no nessary to go to Structure View<br>
+      Make a quick Methods view<br>
+      Quick coding with it<br>
+      <em>Make the first key in [alt M]</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      First Version to Share<br>
+      <em>You can give some issue</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="MethodAction" class="zamber.method.viewer.MethodAction" text="MethodViewer"
+            description="View the method in the file">
+      <add-to-group group-id="ViewMenu" anchor="before" relative-to-action="QuickActions"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt M"/>
+    </action>
+  </actions>
+
+</idea-plugin>
