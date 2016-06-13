@@ -1,10 +1,13 @@
 MethodView
 ========
 
-A plugin for Android Studio and Intellij IDEA that speeds up your day to day android development.
+A plugin for Android Studio and Intellij IDEA that can quick view method you edit the class.
 
 * it is only support the newest jdk like 8 or more
 
+![](method_view_test.png)
+
+![](method_view_test_result.png)
 
 Usage
 =====
