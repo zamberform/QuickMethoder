@@ -22,7 +22,7 @@ The number on the left is a shortcut that will do the same way to this plugin
 The Menu Way
 ------------
 You can find every command in the following menu:
-`View->Model View` 
+`View->MethodViewer` 
 
 
 Installation
